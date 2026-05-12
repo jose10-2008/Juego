@@ -66,7 +66,7 @@ def batalla(j, e):
         if e.esta_vivo():
             random.choice([e.atacar, e.habilidad])(j)
 
-    print("\nGanador:", j.nombre if j.esta_vivo() else e.nombre)
+    print("👑 𝗚𝗔𝗡𝗔𝗗𝗢𝗥 👑:", j.nombre if j.esta_vivo() else e.nombre)
 
 
 def main():
